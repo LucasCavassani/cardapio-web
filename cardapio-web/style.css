@@ -1,0 +1,91 @@
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    margin: 0;
+    padding: 0;
+    background-color: yellowgreen;
+}
+
+header
+{
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.banner
+{
+    background-size:cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+.banner-content
+{
+    width: 80%;
+}
+
+.banner-content h1
+{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.banner p
+{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+nav a
+{
+    color: black;
+    text-decoration; none;
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    background-color: yellowgreen;
+}
+
+nav a:hover
+{
+    background-color: yellowgreen;
+}
+
+main
+{
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.categoria
+{
+    margin-bottom: 2rem;
+}
+
+.produto
+{
+    background-color: white;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.produto img
+{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
